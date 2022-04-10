@@ -1,0 +1,38 @@
+#myID{
+
+    color: green;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-bottom: solid;
+    
+}
+
+p{
+
+    color: #006747;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+
+    background-color: orange;
+
+}
+
+
+#animate{
+    animation:slideleft ease-out 3s;
+    
+}
+
+@keyframes slideleft {
+    from {
+        margin-left: 40%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
